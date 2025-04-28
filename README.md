@@ -89,13 +89,9 @@ The layout is designed to work on both mobile and desktop screens.
 
  - **CSS Flexbox**: For modern, responsive layouts.
 
+## 📸 Screenshot
 
-
-
-## 📸 Screenshots
-Add screenshots of the app or any visuals you want to display in your README.(View)![Uploading Screenshot 2025-04-28 at 11.49.16 PM.png…]()
-
-
+<img width="1469" alt="Screenshot 2025-04-28 at 11 57 29 PM" src="https://github.com/user-attachments/assets/8b150a28-6b3c-44ac-a583-b94c1b75c21b" />
 
 
 
