@@ -1,0 +1,150 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f7fa;
+}
+
+.app {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  height: 100vh;
+}
+
+.sidebar {
+  background-color: #ffffff;
+  width: 250px;
+  padding: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.sidebar h2 {
+  color: #333;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.sidebar button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #4c54af;
+  color: white;
+  border: none;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.sidebar button:hover {
+  background-color: #4c54af;
+}
+
+.canvas {
+  flex-grow: 1;
+  background-color: #ffffff;
+  position: relative;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  padding: 20px;
+}
+
+.element-form {
+  width: 300px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-left: 20px;
+}
+
+h3 {
+  color: #333;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+input[type="text"], input[type="url"], button {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+  outline: none;
+}
+
+input[type="text"]:focus, input[type="url"]:focus {
+  border-color: #4c54af;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #4c54af;
+}
+
+.element {
+  position: absolute;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.element:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  transform: translateY(-5px);
+}
+
+.element.selected {
+  border: 2px solid #4c81af;
+  background-color: rgba(76, 175, 80, 0.1);
+}
+
+.element p {
+  font-size: 16px;
+  color: #333;
+  margin: 0;
+}
+
+.element img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 8px;
+}
+
+.element button {
+  background-color: #4c81af;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.element button:hover {
+  background-color: #4c54af;
+}
+
+.element .invalid {
+  color: red;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+  background-color: #f8d7da;
+  border-radius: 4px;
+}

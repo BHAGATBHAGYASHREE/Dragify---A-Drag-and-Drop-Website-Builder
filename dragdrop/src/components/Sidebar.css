@@ -1,0 +1,14 @@
+.sidebar {
+    width: 200px;
+    padding: 1rem;
+    border-right: 1px solid #ccc;
+    background-color: #fafafa;
+  }
+  
+  .draggable-item {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    background-color: #ddd;
+    cursor: grab;
+  }
+  
