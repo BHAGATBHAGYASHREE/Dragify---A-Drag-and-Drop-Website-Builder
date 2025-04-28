@@ -89,9 +89,14 @@ The layout is designed to work on both mobile and desktop screens.
 
  - **CSS Flexbox**: For modern, responsive layouts.
 
+## 📺 Demo Video
+
+[![Watch the demo](https://img.youtube.com/vi/pigZyR9PCfk/0.jpg)](https://youtu.be/pigZyR9PCfk?si=7YBp5uPb3F7ERbck)
+
 ## 📸 Screenshot
 
 <img width="1469" alt="Screenshot 2025-04-28 at 11 57 29 PM" src="https://github.com/user-attachments/assets/8b150a28-6b3c-44ac-a583-b94c1b75c21b" />
+
 
 
 
